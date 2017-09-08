@@ -57,7 +57,7 @@ public class Dogwalker extends Applet implements ActionListener {
         //set column width
         for (int i=0; i<5; i++){
             TableColumn column = table.getColumnModel().getColumn(i);
-            column.setMinWidth(150);
+            column.setMinWidth(100);
         }
         add(table);
 
